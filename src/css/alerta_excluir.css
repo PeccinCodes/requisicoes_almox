@@ -1,0 +1,37 @@
+#msgDeAlerta{
+    margin: 0px 0px 20px 0px;
+}
+
+.alertaLinha{
+    background-color: #E1221D;
+    color: white;
+    position: absolute;
+    top: 37%;
+    left: 38%;
+    padding: 45px;
+    font-size: 25px;
+    align-items: center;
+    border-radius: 5px; 
+    border: 2px solid;
+    box-shadow: 5px 10px 8px #575757;
+  }
+    
+    
+.btnValidaExcluirRow{
+    font-size: 20px;
+    background-color: white;
+    padding: 10px 30px;
+    border: none;
+    margin: 30px 0px 10px 25px;
+    border-radius: 4px;
+    }
+    
+    
+.btnValidaExcluirRow:hover{
+    font-size: 20px;
+    background-color: #ffa19e;
+    padding: 10px 30px;
+    border: none;
+    margin: 30px 0px 10px 25px;
+    }
+    

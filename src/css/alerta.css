@@ -1,0 +1,121 @@
+.msgFimOk {
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
+}
+
+#msgOk {
+  font-size: 25px;
+  color: #008000;
+  background-color: #b9f0b9;
+  width: 100%;
+  border-style: solid;
+  border-width: 0;
+  border-radius: 5px;
+  padding: 0px 0px 0px 10px;
+}
+
+.barra-time-ok {
+  overflow: hidden;
+}
+
+.barra-time-ok div {
+  height: 5px;
+  animation: roundtime calc(var(--duration) * 1s) steps(var(--duration)) forwards;
+  transform-origin: left center;
+  background: linear-gradient(to bottom, #008000, #b9f0b9);
+}
+
+.barra-time-ok[data-style="smooth"] div {
+  animation: roundtime calc(var(--duration) * 1s) linear forwards;
+}
+
+@keyframes roundtime {
+  to {
+    /* More performant than `width` */
+    transform: scaleX(0);
+  }
+}
+
+.cabecalhoTable>th {
+  color: black;
+  font-weight: bold;
+}
+
+.linhasTable>td {
+  color: black;
+  font-size: 20px;
+}
+.tabelaAlerta, td, th{
+  border: 1px solid;
+  border-color: rgb(93, 93, 93);
+
+}
+.tabelaAlerta{
+  border-collapse: collapse;
+  width: 99%;
+
+}
+
+/*MESAGEM DE FALHA*/
+
+.msgFimFail {
+  position: absolute;
+  top: 2%;
+  left: 35%;
+}
+
+#msgFail {
+  font-size: 20px;
+  color: #E1221D;
+  background-color: #ffa19e;
+  width: 100%;
+  border-style: solid;
+  border-width: 0;
+  border-radius: 5px;
+  padding: 0px 0px 0px 10px;
+}
+
+.barra-time-fail {
+  overflow: hidden;
+}
+
+.barra-time-fail div {
+  height: 5px;
+  animation: roundtime calc(var(--duration) * 1s) steps(var(--duration)) forwards;
+  transform-origin: left center;
+  background: linear-gradient(to bottom, #E1221D, #ffa19e);
+}
+
+.barra-time-fail[data-style="smooth"] div {
+  animation: roundtime calc(var(--duration) * 1s) linear forwards;
+}
+
+@keyframes roundtime {
+  to {
+    /* More performant than `width` */
+    transform: scaleX(0);
+  }
+}
+
+.btnFechaMsg{
+  background-color: #ec3f39;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#msgRequisicao{
+  color: black;
+  font-weight: bold;
+}
+
+.btnFechaMsg:hover{
+  background-color: #c0100a;
+}
+
+#divBtnFechaMsg{
+  float: right;
+  margin: 20px;
+}

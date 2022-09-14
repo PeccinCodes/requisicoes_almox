@@ -1,0 +1,290 @@
+@media only screen and (max-width: 620px) {
+
+    /* For mobile phones: */
+    .conteiner{
+    width: 25cm;
+    margin: 0.0cm auto;
+    background: white;
+    font-size: 15px;
+    text-align: justify;
+    }
+  
+    img{
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+      top: -25px;
+      left: 220%;
+    
+    }
+    .grid-container {
+      display:inline-block;
+      text-align: left;
+    }
+    
+    .grid-container > input{
+      font-size: 50px;
+      border: none;
+      color: rgb(0, 0, 0);
+      border-bottom: 2px solid rgb(0, 0, 0);
+      text-transform:uppercase;
+      width: 100%;
+    }
+  
+    .grid-container > label{
+      color: #7E7E7E;
+      font-size: 35px;
+    }
+  
+    #title{
+      font-size: 50px;
+      font-weight: bold
+  }
+  
+  /*///////////////////////////////////////////////////////////////////*/
+  
+  .itensPesquisaInativo{
+    background-color: white;
+    position: absolute;
+    top: 305px;
+    left: 45px;
+    border-style: none solid solid solid;
+    border-width: 1px;
+    border: none;
+    width: 10px;
+    height: 10px;
+    overflow: scroll;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  .itensPesquisaAtivo{
+  background-color: white;
+  position: absolute;
+  top: 305px;
+  left: 45px;
+  cursor: pointer;
+  border-style: none solid solid solid;
+  border-width: 1px;
+  width: 940px;
+  height: 1010px;
+  overflow: scroll;
+  transition: opacity 0.5s
+  }
+  
+  #litxt:hover{
+  text-align: left;
+  color: white;
+  background-color: #7E7E7E;
+  font-weight: bold;
+  padding: 15px;
+  transition: 0.2s;
+  font-size: 30px;
+  }
+  
+  #litxt{
+  font-weight: bold;
+  padding: 15px;
+  font-size: 30px;
+  background-color: #c2c2c2;
+  }
+  
+  #litxtNe{
+  font-weight: bold;
+  background-color: #e4f900;
+  padding: 10px;
+  font-size: 25PX;
+  }
+  
+  /*///////////////////////////////////////////////////////////////////*/
+  
+  #btnAdd{
+    background-color: #128388;
+    border: none;
+    color: white;
+    padding: 10px 5px;
+    width: 100%;
+    text-decoration: none;
+    font-size: 50px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+
+  .listaespera{
+    color: rgb(0, 0, 0);
+    width: 100%;
+    border: none;
+    font-size: 20PX;
+    padding: 1px;
+    text-transform:uppercase;
+  }
+  
+  .listaesperaInputNul{
+  color: rgb(0, 0, 0);
+  background-color: #d1e2e2;
+  pointer-events: none;
+  width: 100%;
+  border: none;
+  font-size: 20PX;
+  padding: 3px;
+  text-transform:uppercase;
+  }
+  
+  
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 20px;
+  }
+  
+  /*LINHAS DA TABELA*/
+  td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 4px;
+  }
+  
+  
+  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    width: 10.8%;
+  }
+  
+  #trLista{
+  background-color: #128388;
+  padding: 5px;
+  }
+  
+  
+  tr{
+      background-color: #4EA3A7;
+      padding: 50px;
+  }
+  
+  /* TOOLTIP DA INFORMAÇÃO QUE FICA AO LADO BO BT "ENVIAR REQUISIÇÃO*/
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    font-size: 30px;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #128388;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 30px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  /*////////////////////////////////////////////////////////////////////*/
+  
+  .btnSalvarInativo{
+    background-color: #bbb5b5; /* Green */
+    border: none;
+    width: 80%;
+    color: white;
+    padding: 20px 35px;
+    text-decoration: none;
+    font-size: 60px;
+    cursor: pointer;
+    border-radius: 6px;
+    opacity: 0.5;
+    cursor: not-allowed;
+    font-weight: bold;
+  }
+  
+  .btnSalvarAtivo{
+    background-color: #17B121; /* Green */
+    border: none;
+    width: 80%;
+    color: white;
+    padding: 20px 35px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 60px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: opacity 0.9s
+  }
+  
+  #msgOk {
+    font-size: 35px;
+    color: green;
+    background-color: rgb(185, 240, 185);
+    width: 100%;
+    border-style: solid;
+    border-width: 0;
+    border-radius: 5px;
+    padding: 0px 0px 0px 15px;
+  }
+  
+  #msgFail {
+  font-size: 30px;
+  color: #E1221D;
+  background-color: #ffa19e;
+  width: 100%;
+  border-style: solid;
+  border-width: 0;
+  border-radius: 5px;
+  padding: 0px 0px 0px 15px;
+  }
+
+  .alertaLinha{
+    background-color: #EE4E4A;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    padding: 50px 200px;
+    font-size: 36px;
+    border-radius: 5px;
+    }
+    
+    
+    .btnValidaExcluirRow{
+    font-size: 30px;
+    background-color: white;
+    padding: 20px 80px;
+    border: none;
+    margin: 30px 0px 10px 10px;
+    }
+    
+    
+    .btnValidaExcluirRow:hover{
+    font-size: 30px;
+    background-color: #ffa19e;
+    padding: 20px 80px;
+    border: none;
+    margin: 30px 0px 10px 10px;
+    }
+  }

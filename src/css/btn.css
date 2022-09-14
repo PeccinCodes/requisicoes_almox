@@ -1,0 +1,202 @@
+/* ADICIONAR */
+.btnAdd {
+    background-color: #38AB94;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    width: 20%;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btnAdd:hover {
+    background-color: #4bcab1;
+}
+
+.btnAddInativo {
+    background-color: #bbb5b5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    width: 20%;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: not-allowed;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* DELETAR */
+
+#btnDel {
+    background-color: #E1221D;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+#btnDel:hover {
+    background-color: #ff8480;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+#idbtnDel {
+    background-color: white;
+    border: none;
+}
+
+#tdbtnDel {
+    background-color: white;
+    border: none;
+}
+
+.btnDelete:hover {
+    background-color: #ff6c67;
+    cursor: pointer;
+    border: none;
+}
+
+#btnDeltd {
+    background-color: #F5F5F5;
+    border: none;
+}
+
+#btnDelth {
+    background-color: #F5F5F5;
+    border: none;
+}
+
+/* ENVIAR */
+.btnSalvarInativo {
+    background-color: #bbb5b5;
+    border: none;
+    width: 25%;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 6px;
+
+    opacity: 0.5;
+    cursor: not-allowed;
+    font-weight: bold;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btnSalvarAtivo {
+    background-color: #17B121;
+    border: none;
+    width: 25%;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 6px;
+
+    font-weight: bold;
+    transition: opacity 0.9s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btnSalvarAtivo:hover {
+    background-color: #61CF68;
+}
+
+#btenviar {
+    text-align: center;
+}
+
+#imprimir {
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: #EE964A;
+    border: none;
+    border-radius: 10px;
+}
+
+#imprimir:hover {
+    background-color: #d87015;
+}
+
+#export {
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: #217346;
+    border: none;
+    border-radius: 10px;
+}
+
+#export:hover {
+    background-color: #004B1C;
+}
+
+#btnRelatorio{
+    margin: 5px;
+    padding: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #EA9648;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btnRelatorio:hover{
+    background-color: #AD5A0D;
+
+}
+
+#btnRequisicoes {
+    margin: 5px;
+    padding: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #2E838F;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btnRequisicoes:hover{
+    background-color: #0A5E6A;
+}
+
+#btnAtualizarPagina{
+    margin: 5px;
+    padding: 15px;
+    font-weight: bold;
+    color: white;
+    background-color:#DA2A1C;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btnAtualizarPagina:hover{
+    background-color:#AD190D;
+}

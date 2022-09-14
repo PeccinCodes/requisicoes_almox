@@ -1,0 +1,117 @@
+body {
+  font-family: 'Open Sans', 'icones', Arial, Helvetica, sans-serif, sans-serif;
+  margin: 0;
+  padding: 0;
+  padding: 5px 10px 10px 10px;
+  background-color: #F5F5F5;
+}
+
+
+.conteiner {
+  padding: 0px 10px 10px 10px;
+}
+
+.containerInativo {
+  padding: 0px 10px 10px 10px;
+  pointer-events: none;
+  filter: blur(4px);
+}
+
+/*//////////////////////////////////////////////////*/
+
+#titulo-principal label {
+  font-size: 22px;
+}
+
+#subtitulo{
+  font-size: 20px;
+}
+
+/*//////////////////////////////////////////////////*/
+
+
+/* TOOLTIP DA INFORMACAO QUE FICA AO LADO BO BT "ENVIAR REQUI*/
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  font-size: 19px;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #128388;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*////////////////////////////////////////////////////////////////////*/
+
+#txtLista {
+  font-weight: bold;
+  font-size: 25px;
+
+}
+
+/*//////////////////////////////////////////////////////////////////*/
+
+
+#txCodigoCracha {
+  font-size: 20PX;
+}
+
+/*///////////////////////////////////////////////////////////////////*/
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#tiLista {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#texListaitens {
+  font-weight: bold;
+  font-size: 22px;
+
+}
+
+#texCodigocracha {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 1%;
+  font-size: 13px;
+}

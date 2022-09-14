@@ -1,0 +1,194 @@
+.buttons{
+    display: flex;
+    margin: 10px 0px 30px 0px;
+}
+
+@media print {
+    .paginate_button {
+        display: none;
+
+    }
+
+    #info-vencidos {
+        display: none;
+    }
+
+    #no-print {
+        display: none;
+    }
+
+    .dataTables_info {
+        display: none;
+
+    }
+
+    br {
+        display: none;
+    }
+
+    input {
+        display: none;
+    }
+
+    label {
+        display: none;
+    }
+
+    .imprimir {
+        display: none;
+    }
+
+    table,
+    th,
+    td {
+        border: 1px solid;
+        font-size: 13px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .column {
+        display: none;
+    }
+}
+
+#tabela {
+    padding: 15px 0px 10px 0px;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+tr>th {
+    background-color: #C5C5C5;
+}
+
+
+#imprimir {
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: #EE964A;
+    border: none;
+    border-radius: 10px;
+}
+
+#imprimir:hover {
+    background-color: #d87015;
+}
+
+#export {
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: #217346;
+    border: none;
+    border-radius: 10px;
+}
+
+#export:hover {
+    background-color: #004B1C;
+}
+
+label {
+    padding: 0px 10px 10px 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.column-3
+
+/*ESPAÇO ENTRE O LABEL E INPUT*/
+    {
+    width: 18%;
+}
+
+.column-9
+
+/*ESPACO DO INPUT*/
+    {
+    width: 51%;
+}
+
+.column {
+    float: left;
+    height: 35px;
+}
+
+.input input {
+    font-size: 20px;
+    width: 5%;
+    height: 25px;
+}
+
+
+#info-vencidos {
+    margin: 20px;
+    padding: 8px;
+    font-size: 15px;
+    color: black;
+    background-color: yellow;
+    width: 220px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#input-itens-vencidos {
+    width: 35px;
+}
+
+#info-ok {
+    padding: 8px;
+    font-size: 15px;
+    color: black;
+    background-color: #F2F2F2;
+    width: 220px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#input-itens-ok {
+    width: 35px;
+}
+
+
+#info-homologados {
+    margin: 20px;
+    padding: 8px;
+    font-size: 15px;
+    color: black;
+    background-color: #C5C5C5;
+    width: 220px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#input-itens-homologados {
+    width: 30px;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 12.5% 12.5% auto;
+}
+
+
+
+#tabelaitens_wrapper > div{
+    margin: 20px;
+}

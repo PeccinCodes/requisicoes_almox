@@ -1,0 +1,58 @@
+#tabela-produtos {
+  margin: 0px 0px 20px 0px;
+}
+
+.listaespera {
+  color: rgb(0, 0, 0);
+  width: 98%;
+  border: none;
+  font-size: 15px;
+  padding: 1px;
+  text-transform: uppercase;
+  background-color: #F5F5F5;
+}
+
+.listaesperaInputNul {
+  color: rgb(0, 0, 0);
+  pointer-events: none;
+  width: 98%;
+  border: none;
+  font-size: 15px;
+  padding: 3px;
+  text-transform: uppercase;
+  background-color: #F5F5F5;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/*LINHAS DA TABELA*/
+
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 5px;
+}
+
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  font-size: 19px;
+}
+
+#trLista {
+  background-color: #38AB94;
+  color: white;
+}
+
+.thGrande{
+  width: 20px;
+}
+
+.descricao {
+  width: 890px;
+}
