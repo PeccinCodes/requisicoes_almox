@@ -2,6 +2,7 @@
 
 include(__DIR__ . '/../include/banco.php');
 include(__DIR__ . '/../db/' . $db); //conexao com o banco
+
 $query_requisicoes =
     "SELECT 
             ppa.requisicao,
