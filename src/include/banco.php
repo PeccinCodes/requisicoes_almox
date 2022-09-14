@@ -4,7 +4,7 @@ if (false) {
 
     // PROD
     $db = 'conexao_oracle_prod.php';
-    $tipo = 'PROD';
+    $tipo = '1.1.4';
 
 } else {
 
