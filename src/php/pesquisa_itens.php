@@ -1,7 +1,6 @@
 <?php
 
-include(__DIR__ . '/../include/banco.php');
-include(__DIR__ . '/../db/'.$db); //conexao com o banco
+include(__DIR__ . '/../db/conexao_oracle_prod.php');
 
 $filtro_nome = filter_input(INPUT_GET, "cod_e_descricao");
 $filtro_nome = strtoupper($filtro_nome);

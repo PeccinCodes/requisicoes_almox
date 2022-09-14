@@ -1,7 +1,7 @@
 <?php
 
 // CONEXÃO COM O BANCO DE DADOS
-include(__DIR__ . '/../db/conexao_oracle_dev.php');
+include(__DIR__ . '/../db/conexao_oracle_prod.php');
 
 ////////////////////////////////////////////////////////
 

@@ -1,6 +1,6 @@
 <?php
 
-if (true) {
+if (false) {
 
     // PROD
     $db = 'conexao_oracle_prod.php';

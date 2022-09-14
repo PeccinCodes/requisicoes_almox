@@ -1,7 +1,6 @@
 <?php
 
-include(__DIR__ . '/../include/banco.php');
-include(__DIR__ . '/../db/'.$db);
+include(__DIR__ . '/../db/conexao_oracle_prod.php');
 
 $pesquisaLocais = ociparse(
   $ora_conexao,
