@@ -34,7 +34,7 @@ include(__DIR__.'/pesquisa-requisicoes.php')
                     <input id="btnAtualizarPagina" onclick='atualizar()' type="button" value="ATUALIZAR LISTA">
                     <br><br>
                     <label for="">Nº REQ:</label>
-                    <input id="inputContagemReq" type="text" value="<?= $cont_requ ?>">
+                    <input id="inputContagemReq" type="text" value="<?= $cont_requ ?>" readonly>
                 </div>
             </div>
         </head>
