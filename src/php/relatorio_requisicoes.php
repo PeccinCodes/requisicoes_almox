@@ -1,5 +1,9 @@
 <?php
-include(__DIR__.'/pesquisa-requisicoes.php')
+
+include(__DIR__.'/pesquisa-requisicoes.php');
+
+// EXPLODE DO NOME PARA PEGAR O NOME E O ULTIMO NOME *LINHA 81
+$nome = explode(' ',$array['NOME'])
 
 ?>
 <!DOCTYPE html>
@@ -74,7 +78,7 @@ include(__DIR__.'/pesquisa-requisicoes.php')
                                 <td><?= $array['QTDESEJADA'] ?></td>
                                 <td><?= $array['LOCALENTREGA'] ?></td>
                                 <td><?= $array['DATASOLICITACAO'] ?></td>
-                                <td><?= $array['NOME'] ?></td>
+                                <td><?= $nome[0].' '.end($nome) ?></td>
                                 <td><?= $array['OBSERVACAO'] ?></td>
                             </tr>
                     <?php
