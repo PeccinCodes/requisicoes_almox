@@ -4,27 +4,27 @@ include(__DIR__ . '/../include/banco.php');
 include(__DIR__ . '/../db/' . $db); //conexao com o banco
 
 $query_requisicoes =
-    "SELECT 
-            ppa.requisicao,
-            ppa.item,
-            ppa.descricao,
-            ppa.unimedida,
-            ppa.qtestoque,
-            ppa.qtdesejada,
-            ppa.tipo,
-            ppa.localentrega,
-            ppa.datasolicitacao,
-            ppa.retorno,
-            pa.nome,
-            ppa.observacao 
-        FROM 
-            pcn_prod_almox ppa,
-            pcn_apontadores pa
-        WHERE 
-            pa.codigo = ppa.cracha
-        ORDER BY 
-            TO_NUMBER(ppa.requisicao)
-        DESC";
+    "SELECT
+    ppa.requisicao,
+    ppa.item,
+    ppa.descricao,
+    ppa.unimedida,
+    ppa.qtestoque,
+    ppa.qtdesejada,
+    ppa.tipo,
+    ppa.localentrega,
+    ppa.datasolicitacao,
+    ppa.retorno,
+    vsf.nome,
+    ppa.observacao
+FROM
+    pcn_prod_almox ppa,
+    pcn_vw_senior_func vsf
+WHERE
+    trunc(vsf.chapa) = ppa.cracha
+    AND vsf.situacao = 'Trabalhando'
+ORDER BY
+    to_number(ppa.requisicao) DESC";
 $query = ociparse($ora_conexao, $query_requisicoes);
 ociexecute($query);
 $array = oci_fetch_assoc($query);
