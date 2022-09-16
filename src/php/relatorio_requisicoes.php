@@ -91,8 +91,9 @@ include(__DIR__.'/pesquisa-requisicoes.php');
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
 <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+
 <script>
-    var vals = [];
+
     $('#tabelaitens').dataTable({
         "paging": true,
         "info": false,
@@ -105,6 +106,7 @@ include(__DIR__.'/pesquisa-requisicoes.php');
     atualizar = () =>{
         location.reload()
     }
+    
 </script>
 
 </html>
